@@ -19,4 +19,4 @@
 | Python Concurrency with `asyncio` – Matthew Fowler | 1,2,3,4,7 | I'm writing a lot of Python at work lately. Coming from JavaScript, I wanted to understand how Python’s event loop and threading model work under the hood. |
 | ClickHouse – Lightning Fast Analytics for Everyone | Full Paper | While contributing to **ClickHouse**, I read this to deepen my understanding of its architecture, as it was difficult to reverse engineer some of the complex parts from the source code. |
 | An Empirical Evaluation of Columnar Storage Formats | Full Paper | Following the CMU `15-721` Database course|
-| Spark: The Definitive Guide: Big Data Processing Made Simple | Part 1 And Chapter 12 | Reading Apache Spark to prep for upcoming projects at work |
+| Spark: The Definitive Guide: Big Data Processing Made Simple | Part 1 , Chapter 12,20,and 21 | Reading Apache Spark to prep for upcoming projects at work |

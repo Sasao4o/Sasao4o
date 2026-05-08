@@ -20,3 +20,4 @@
 | ClickHouse – Lightning Fast Analytics for Everyone | Full Paper | While contributing to **ClickHouse**, I read this to deepen my understanding of its architecture, as it was difficult to reverse engineer some of the complex parts from the source code. |
 | An Empirical Evaluation of Columnar Storage Formats | Full Paper | Following the CMU `15-721` Database course|
 | Spark: The Definitive Guide: Big Data Processing Made Simple | Part 1 , Chapter 12,20,21, and 23 | Reading Apache Spark to prep for upcoming projects at work |
+| What Goes Around Comes Around... And Around... | Full Paper | What a great paper! |

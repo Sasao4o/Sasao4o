@@ -4,3 +4,8 @@ Some notes:
 Tree vs DAG in Query plans
 https://buttondown.com/jaffray/archive/why-are-query-plans-trees/#:~:text=Since%20cycles%20actually%20introduce%20additional%20computational%20power%2C,FROM%20foo%20a%20CROSS%20JOIN%20foo%20b.
 https://www.cockroachlabs.com/docs/v26.2/architecture/sql-layer
+
+
+
+
+POSIX API vs user space api (in the Shared Disk vs Shared Nothing) (Lecture 1 CMU)

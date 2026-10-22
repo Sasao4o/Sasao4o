@@ -27,3 +27,4 @@ https://github.com/Sasao4o/insight-archive
 | MonetDB/X100: Hyper-Pipelining Query Execution | Full Paper | Following the CMU `15-721` Database course |
 | MCP Server Architecture Patterns for LLM-Integrated Applications | Full Paper | Working with bunch of mcps at work |
 | The End of Software Engineering: How AI Agents Are Fundamentally Restructuring the Software Paradigm | Full Paper |  |
+| Extending ResourceLink: Patterns for Large Dataset Processing in MCP Applications | Full Paper | Read MCP large dataset patterns while designing our AI-MCP agent architecture at work.  |

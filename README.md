@@ -1,6 +1,72 @@
 ## Summary and Insights:
 https://github.com/Sasao4o/insight-archive
 
+
+# Systems Projects
+
+A collection of systems projects across distributed systems, databases, operating systems, blockchain, and open-source contributions.
+
+---
+
+## 🌐 Distributed Systems
+
+### Distributed Log Service · C++
+A replicated log service built on **Raft** for consensus and replication, **Serf** for cluster membership and node discovery, and **gRPC** for the client and server API.
+
+### Primary/Backup Key-Value Store · Go
+A monitor detects failed servers through heartbeats and promotes the backup. The primary forwards every write to the backup before replying, and request IDs ensure retries are applied only once.
+
+### BitTorrent Client · Node.js
+Built from scratch with no torrent libraries. It gets peers from a UDP tracker, runs the peer wire protocol over TCP, and downloads 16 KB blocks from many peers at once into the output file.
+
+### MapReduce · Go
+*(Princeton COS418 / MIT 6.824)*
+
+### Chandy–Lamport Distributed Snapshots · Go
+*(Princeton COS418)*
+In a simulator of nodes passing tokens over FIFO links, nodes use markers to record their own state and in-transit messages. Multiple snapshots can run concurrently, and the total token count is preserved in every snapshot.
+
+---
+
+## 🗄️ Databases
+
+### BusTub Educational Database · C++
+*(CMU 15-445)*
+Buffer pool manager with LRU-K replacement, B+ tree index, and query executors.
+The demo shows SQL queries running through the engine and a page moving between disk and memory.
+
+### pg_rusty_statement · Rust
+A Postgres extension written in Rust. *Learning project, in progress.*
+
+---
+
+## ⚙️ OS & Low-Level
+
+- **User-Level Threads** · *Stanford CS240, Lab 1*
+- **Malloc Allocator** · *CS:APP*
+- **Producer–Consumer** · System V shared memory + semaphores
+
+---
+
+## ⛓️ Blockchain
+
+### Blockchain Ledger
+Validates transactions (signatures, double spends, amounts) and builds blocks from a pool of pending transactions. Blocks are stored as a tree to handle forks, with the longest branch as the main chain and a UTXO pool per block.
+
+### Auction Smart Contract · Solidity
+
+---
+
+## 🤝 Open Source — ClickHouse
+
+| Contribution | Description |
+|---|---|
+| **Insert Streaming Graceful Shutdown** | |
+| **Named Tuples Pretty Format** | |
+| **Atomic `CREATE TABLE AS SELECT`** | Contributed to the PR: the table is not created if the `SELECT` fails. |
+| **`optimize_row_order` Performance Investigation** | Benchmarked the setting on four variants of the `hits` dataset: inserts were 20–35% slower (up to 140% on wide tables) for only ~2% better compression. |
+
+
 ## 📚 Books I’ve Read
 
 | Book / Paper | Chapters | Why I Read It |
